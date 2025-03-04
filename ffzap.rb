@@ -1,7 +1,7 @@
 class Ffzap < Formula
     desc "A multithreaded CLI for digital media processing using ffmpeg. If ffmpeg can do it, ffzap can do it - as many files in parallel as your system can handle. "
     homepage "https://github.com/CodeF0x/ffzap"
-    version "1.0.0"
+    version "1.1.0"
   
     on_macos do
       if Hardware::CPU.arm?
