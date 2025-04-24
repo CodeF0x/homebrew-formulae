@@ -5,17 +5,17 @@ class Ffzap < Formula
   
     on_macos do
       if Hardware::CPU.arm?
-        url "https://github.com/CodeF0x/ffzap/releases/download/1.1.1/ffzap-macos-aarch64.tar.gz"
-        sha256 "8441a4bb1dbb7e186b31d3a63c5ae963549f85cb679f2c9d389250e0a9723671"
+        url "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-macos-aarch64.tar.gz"
+        sha256 "ac8bbaeeb0036420d3555c7df9ea27c570ed78be337de3db34c225fc622c5c16"
       elsif Hardware::CPU.intel?
-        url "https://github.com/CodeF0x/ffzap/releases/download/1.1.1/ffzap-macos-x86_64.tar.gz"
-        sha256 "04adf416de2dcb2df5deb1502a224ec7b66de6d9fdfd41535c91baee5b3538e8"
+        url "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-macos-x86_64.tar.gz"
+        sha256 "2039c36bbfe393020b1d9889e3020f00113e7561a1f902ac7735912c8689c005"
       end
     end
   
     on_linux do
-      url "https://github.com/CodeF0x/ffzap/releases/download/1.1.1/ffzap-linux-x86_64.tar.gz"
-      sha256 "999306336e4c7e50dc9010119da0d09a457ba6070ba76b1cd8b868ab5c4adb54"
+      url "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-linux-x86_64.tar.gz"
+      sha256 "1b0c7217782b06f32fb927b57d4857cd2634d8b8b34c9d6ed734671e23369f28"
     end
   
     def install
